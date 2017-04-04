@@ -1,0 +1,213 @@
+<! doctypen html>
+<html>
+<head>
+<meta charset=utf-8">
+<title>segunda apliacacion movil</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="../css/tema-app1.min.css"/>
+<link rel="stylesheet" ccs/jquery.movile.icons-1.4.5.min.ccs"/>
+<linkrel="stylesheet" href="ccs/jquery.movile.structure-1.4.5.min.ccs"/>
+<!--grupo JavaScript-->
+<scrip src="js/jquery-1.11.2.min.js"> </script>
+<scrip src="js/jquery.mobile-1.4.5.min.js"> </script>
+<scrip src="js/acciones.js"> </script>
+<scrip src="phonegap.js"> </script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+</head>
+
+<body onLoad="MM_preloadImages('../../images (1).jpg','../../descarga.jpg','../../images (7).jpg','../../images (8).jpg','../../4526780_640px.jpg','../../hqdefault.jpg')">
+
+   <div data-role="page id="Principal" data-theme"a">
+    <div data-role"header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme"b">
+    <h1> Telefonia Celular </h1>
+    </div>
+    <div data-role="main" class"ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1> telefono   </h1>
+    <p> esto es un telefono </p>
+    <br>
+    </div>
+    <div>
+    <img src="../imagenes/fotoPerfil.png" width="50%" height="50%">
+          </div>
+         </div>
+        </div>
+        <div>
+          <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+          <li class="ui-first-child ui-last-child">
+          
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>¿Que es un telefoino celular?/h2>
+            <p>Se muestra la informacion</p>
+            </a>
+            </li>
+            <li class="ui-fir ui-last-child">
+                 <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2> Historia del telefono Celular</h2>
+                 <p>Muestra los sucesos </p>
+            </a>
+            </li>
+            <li class="ui-fir ui-last-child">
+                 <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>La clasificacion del telefono decuerdo a su gama</h2>
+                 <p>Muestran telefonos por gama</p>
+            </a>
+            </li>
+            <li class="ui-fir ui-last-child">
+                 <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Companias en mexico que manejan el servicio de la telefonia</h2>
+                 <p>  compañias de mexico al cervicio de la telefonia </p> 
+                 </a>
+                 </li>
+              <li class="ui-fir ui-last-child">
+                 <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2> Telefoinos del futuro</h2>
+                 <p>Informacion acerca de telefonos del futuro</p> 
+                 </a>
+                 </li>   
+                 </ul>
+</div> 
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                  <div>
+                  <img src="../imagenes/persona_rosa.png" width="46" height="46">
+               </div>
+               <div>
+                  <h4> Aplicacion uno</h4>
+                  <h4>Evelyn Gutierrez Aguilar</h4>
+               </div>
+             </div>
+             </div>
+          <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                    <h1> que es un telefono celular</h1>
+                 </div>
+                 
+<div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Foto del Perfil</h1>
+          <div>
+           <p> Esta es mi imagen de perfil: </p>
+           <br>
+          </div>
+          <div>
+            <img src=" width="50%" height="50%">
+          </div>
+         </div>
+        </div>
+        <div>
+       <div data-role="content" align="center">
+                     <div>
+                    <h2> teléfono móvil (o teléfono celular) Aparato telefónico de pequeño tamaño, portátil, sin hilos ni cables externos, para poder hablar desde cualquier lugar, siempre que sea dentro del área de cobertura del servicio que lo facilita. </h2>
+                    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../../images (1).jpg',1)"><img src="../../images (4).jpg" width="225" height="225" id="Image5"></a></p>
+                   </div>
+               </div>
+          <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4> Aplicacion Uno,EGA</h4> 
+        </div>
+        </div>
+     
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+        <div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">  
+        <h1>Historia del telefono celular </h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+        <h2> El 3 de abril de 1973, Martín Cooper directivo de Motorola realizó la primera llamada desde un teléfono móvil del proyecto DynaTAC 8000X desde una calle de Nueva York. precisamente a su mayor rival en el sector de telefonía: Joel Engel, de los Bell Labs de AT&T. </h2>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','../../descarga.jpg',1)"><img src="../../samsung-galaxy-s6-galaxy-s6-edge.jpg" width="949" height="400" id="Image7"></a></p>
+        </div>
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4> Aplicacion Uno,EGA</h4> 
+        </div>
+        </div>
+      
+        
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+        <div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">  
+        <h1> La clasificacion del telefono deacuerdo a su gama</h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+        <h2> telefonos de gama baja </h2>
+        <p>es un celular que solo sirve para llamar y recibir llamada, enviar y recibir sms, pues no tienen internet ni soporte para aplicaciones </p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','../../images (7).jpg',1)"><img src="../../images (6).jpg" width="266" height="190" id="Image8"></a></p>
+        <h2> telefonos de gama media  </h2>
+        <p>es un celular para llamar, sms, internet pero con poca memoria de procesamiento, lento en conexion a internet y con soporte para apps java(si no es chino)</p>
+         <h2> telefonos de gama alta  </h2>
+         <p>elular inteligente con gran capacidad de procesamiento tanto de internet como en archivos practicamente sin las limitaciones de los de gama baja y media</p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','../../images (8).jpg',1)"><img src="../../images (9).jpg" width="352" height="143" id="Image9"></a></p>
+        
+        </div>
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4> Aplicacion Uno,EGA</h4> 
+        </div>
+        </div>
+        
+        
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+        <div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">  
+        <h1> Compañias en mexico que manejan el servicio de la telfonia celular </h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+        <h2>  El servicio de telefonía móvil en México alcanza, según estimaciones para el año 2013, a un total de 90 millones de líneas celulares activas (la población mexicana se calcula cerca a los 120 millones de habitantes).</h2>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','../../4526780_640px.jpg',1)"><img src="../../companias-de-telefonia-movil-celular-en-mexico.jpg" width="920" height="333" id="Image"></a></p>
+        
+        <a href="http://www.telcel.com.mx">http://www.telcel.com.mx</a></div>
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4> Aplicacion Uno,EGA</h4> 
+        </div>
+        </div>
+       
+       
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+        <div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">  
+        <h1> Telefonos del futuro</h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+        <h2> Con el tiempo, las novedades tecnológicas nos parecen normales y hasta aburridas. Hace varias décadas nadie se imaginaba que en 2005 andaríamos con celulares en nuestros bolsillos para hacer llamadas y mandar SMS. Es más, si le dijéramos a alguien de 1985 sobre las posibilidades de los smartphones en 2015 nos tendría en la categoría de locos.  </h2>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','../../hqdefault.jpg',1)"><img src="../../images (10).jpg" width="259" height="195" id="Image2"></a></p>
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4> Aplicacion Uno,EGA</h4> 
+        </div>
+      </div>
+   
+     </div>
+     
+     
+</body>
+</html>
+
+    
+</body>
+</html>

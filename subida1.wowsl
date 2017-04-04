@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>14</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>subida1</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/dodgy/</ImageTemplate>
+            <ImageTemplateName>Dodgy</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#47C9AF</TemplateColor>
+            <TemplateFont>Indie Flower</TemplateFont>
+            <TemplateName>dodgy</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/best-smartphones-2016-best-andro.jpg</url>
+                <title>best-smartphones-2016-best-andro</title>
+                <filesize>317221</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (1).jpg</url>
+                <title>images (1)</title>
+                <filesize>6319</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (2).jpg</url>
+                <title>images (2)</title>
+                <filesize>4501</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (3).jpg</url>
+                <title>images (3)</title>
+                <filesize>6234</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (4).jpg</url>
+                <title>images (4)</title>
+                <filesize>7755</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (8).jpg</url>
+                <title>images (8)</title>
+                <filesize>6334</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (9).jpg</url>
+                <title>images (9)</title>
+                <filesize>7989</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (10).jpg</url>
+                <title>images (10)</title>
+                <filesize>8241</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (11).jpg</url>
+                <title>images (11)</title>
+                <filesize>6470</filesize>
+            </Image>
+            <Image>
+                <url>G:/DAM/2do Parcial/app-2/imagenes/images (12).jpg</url>
+                <title>images (12)</title>
+                <filesize>8043</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

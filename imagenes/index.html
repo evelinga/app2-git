@@ -1,0 +1,311 @@
+﻿<!doctype html>
+<html><head>
+  <meta charset="utf-8">
+  <title>segunda aplicacion movil</title>
+  
+	<!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema-app1.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+  <!--grupo javaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  
+  </head>
+
+ <body>
+
+    <div data-role="page" id="principal" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Telefonía Celular</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1> Bienvenido a esta Aplicación </h1>
+        <div> 
+         <p>Conocerás la historia, el presente y el futuro de los teléfonos celulares </p>
+         <br>
+        </div>
+        <div>
+           <img src="imagenes/futuro.png" width="90%" height="35%">
+        </div>
+     </div>
+    </div>
+    
+    <div> 
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child">
+         <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2> Teléfono Celular</h2>
+          <p> Definición </p>
+         </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Historia del Teléfono Celular </h2>
+        <p> Se muestra la historia y el origen del teléfono celular </p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Clasificación por Gama </h2>
+        <p> Se clasifica a los celulares por Gama Baja, Media y Alta</p>
+       </a> 
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Compañías en México </h2>
+        <p> Se muestra las compañías de telefonía celular que operan en México </p>
+       </a> 
+     </li>  
+      <li class="ui-first-child ui-last-child">
+       <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Telefonos del Futuro </h2>
+        <p> Se muestra a los celulares del futuro </p>
+       </a> 
+     </li> 
+     </ul>
+     </div>
+     
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/celular.jpg" alt="Celular" title="Celular" id="wows1_0"/></li>
+		<li><img src="data1/images/eficiencia.png" alt="Eficiencia" title="Eficiencia" id="wows1_1"/></li>
+		<li><img src="data1/images/evolucin.jpg" alt="Evolución" title="Evolución" id="wows1_2"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/sofisticacin.jpg" alt="http://wowslider.net/" title="Sofisticación" id="wows1_3"/></a></li>
+		<li><img src="data1/images/varios_usos.jpg" alt="Varios Usos" title="Varios Usos" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Celular"><span><img src="data1/tooltips/celular.jpg" alt="Celular"/>1</span></a>
+		<a href="#" title="Eficiencia"><span><img src="data1/tooltips/eficiencia.png" alt="Eficiencia"/>2</span></a>
+		<a href="#" title="Evolución"><span><img src="data1/tooltips/evolucin.jpg" alt="Evolución"/>3</span></a>
+		<a href="#" title="Sofisticación"><span><img src="data1/tooltips/sofisticacin.jpg" alt="Sofisticación"/>4</span></a>
+		<a href="#" title="Varios Usos"><span><img src="data1/tooltips/varios_usos.jpg" alt="Varios Usos"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+       <img src="imagenes/celular.png" width="46" height="46">
+     </div>
+     <div>
+       <h4>Aplicación Dos</h4>
+       <h4> David Julian Aguilar Ramírez </h4>
+     </div>
+    </div>
+   </div> 
+   <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> Teléfono Celular </h1>
+     </div>
+     <div data-role="content" align="center">
+      <div> 
+        <h3> Es un dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. Su principal característica es su portabilidad, que permite comunicarse desde casi cualquier lugar, sin embargo, su rápido desarrollo ha incorporado otras funciones como son cámara fotográfica, agenda, juegos, acceso a Internet, reproducción de video e incluso GPS y reproductor mp3. </h3>
+      </div>
+     </div>
+     
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+     <h2> Celulares</h2>
+     <div>
+     <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Antes-Despues','','imagenes/desp.png',1)"><img src="imagenes/ant.png" alt="Teléfono Celular" width="400" height="200" id="Antes-Despues"></a></center></div>
+     </div>
+     </div>
+     
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4> Aplicacion Dos, DJAR</h4>
+     </div>
+    </div>
+   <!--</div>-->
+    
+    <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1> Historia del Teléfono Celular </h1>
+    </div> 
+       <div data-role="content" align="center">
+      <div> 
+        <h4> La telefonía móvil o celular se conoce desde mediados del siglo XX, aunque no fue hasta los años setenta que poco a poco comenzó a extenderse, primeramente a precios muy altos y con equipos rudimentarios.<br>
+ El 3 de abril de 1973, Marty Cooper vicepresidente de Investigación y Desarrollo de Motorola en ese entonces, hace una llamada telefónica a Joel Engel, ingeniero jefe de AT&T y propulsor de la telefonía celular, utilizando el prototipo desarrollado por su compañía, certificándose de esta manera el nacimiento del teléfono celular.<br>
+El primer prototipo de teléfono móvil comercializado a gran escala fue el diseñado por el ingeniero Rudy Krolopp, de la compañía Motorola, en 1983. Este teléfono pesaba 0,74 kg, y tenía un valor de 4000 dólares.<br><br>
+<img src="imagenes/evolucion.png" width="90%" height="42%"><br><br>
+Actualmente, los celulares han dejado de ser un simple aparato para exclusivamente comunicarse, hoy en día es una de las herramientas más convencionales y útiles para trabajar, relacionarse y realizar diversas actividades que nos rodean. Así mismo, las empresas encargadas de su fabricación han incrementado hasta ser una competencia internacional, tal es el caso de: iPhone y Samsung que son las que encabezan el mercado, seguidas de Sony, Motorola, Nokia (Microsoft) y Alcatel, mientras que otras empresas estan empezando como: Blu, ZTE, Huawei y Lenovo</h4></div>
+      </div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4> Aplicacion Dos, DJAR</h4>
+     </div>
+    </div>
+   <!--</div>-->
+   
+ <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1> Clasificación por Gama </h1>
+    </div>
+     <div data-role="content" align="center">
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1> Gama Baja: </h1>
+        <div> 
+         <p>Van desde marcas chinas, imitaciones de gama media o alta hasta terminales obsoletos con muy pocas excepciones.Sus atributos son:
+         <br>
+         <ul> 
+          <li> Tienen funciones básicas o las funciones que traen ya no están a la altura de un SmartPhone de gama alta.
+          <li> Precios muy economicos.
+          <li>Características muy limitadas (cámara VGA, memoria interna, sin flash, se ponen muy lentos con el tiempo).
+          <li>No reciben soporte ni actualizaciones.
+          <li>Suelen ser pequeños.
+          </ul>
+          Por ejemplo: LG Optimus L4X, Nokia Lumia 505, iPhone 4, Alcatel One Touch X’POP<br>
+        </div>
+        <div>
+           <img src="imagenes/gamabaja.png" width="80%" height="40%">
+        </div>
+     </div>
+    </div>
+        </h4>
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1> Gama Media: </h1>
+        <div> 
+         <p>Corresponden a algunos dispositivos de marcas asiáticas, dispositivos devaluados por el tiempo que tienen en el mercado (puede ser engañoso) y las propuestas conservadoras en especificaciones de marcas reconocidas que pueden hacer mucho pero no tanto. Lo que los caracteriza es:</p>
+         <br>
+         <ul>
+<li>Suelen ser muy equilibrados en sus detalles.</li>
+<li>Generalmente no superan los 500 dólares en precio (como mucho).</li>
+<li>Tienen algunas funciones de la gama alta del momento.</li>
+<li>Los materiales ya son de calidad aceptable.</li>
+<li>Pantallas que no superan las 4.5 pulgadas (en promedio).</li>
+<li>Cámaras de 3 a 5 Mpx.</li>
+<li>Tienen soporte limitado pero existe comunidad de desarrolladores para actualizar con una ROM.</li>
+</ul>
+Por ejemplo: Sony Xperia Z1, Moto G, Samsung Galaxy J1, iPhone 5.<br>
+<img src="imagenes/gamamedia.png" width="80%" height="40%"><br><br>
+        </div>
+        <div>
+           <img src="imagenes/mozilla.png" width="80%" height="40%">
+        </div>
+     </div>
+    </div>
+        </h4>
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1> Gama Alta: </h1>
+        <div> 
+           <p>Encontramos a los mejores dispositivos, se distinguen por sus complejas funciones, pues son los más avanzados o los más actuales de su tiempo. Sin embargo son los más caros. Sus características son:</p>
+         <br>
+       <ul>
+<ul>
+<li>Pantallas de 5 pulgadas en adelante.</li>
+<li>Memoria interna desde 16GB.</li>
+<li>Soporte de actualizaciones.</li>
+<li>Diseñados para redes 4G.</li>
+<li>Muchos núcleos, procesadores y RAM para que sean muy rápidos.</li>
+<li>Cámaras de calidad desde 8 Mpx.</li>
+<li>Destacan por ser relativamente delgados.</li>
+<li>Eficiencia energética.</li>
+<li>Se conectan con la TV y Wearables.</li>
+<li>Desde 800 dólares en adelante.</li>
+</ul>
+Por ejemplo: Sony Xperia XZ, Nokia Lumia 950 XL, Samsung Galaxy S7 Edge, iPhone 7 Plus.<br>
+<img src="imagenes/gamaalta.png" width="80%" height="40%"><br>
+        </h4>
+</div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4> Aplicacion Dos, DJAR</h4> 
+    </div>
+    </div>
+  <!--</div>-->
+  
+  <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1> Compañías de Telefonia Celular en México </h1>
+    </div>
+     <div data-role="content" align="center">
+      <div> 
+        <h4>El inicio de la telefonía móvil en México se remonta a 1977, cuando se solicitó a la SCT de México (Secretaría de Comunicaciones y Transportes) una concesión para instalar, operar y explotar un sistema de radiotelefonía móvil en el Distrito Federal. Pero no fue hasta 1981 cuando se inició la comercialización de este servicio, el cual fue conocido por el público como Teléfono en el Auto, con el cual se logró, en un lapso de ocho meses, dar servicio a 600 usuarios. Actualmente las compañías que operan en México son:
+        <ul>
+<li>Telcel (subsidiaria de América Móvil): operando bajo TDMA (Análogo y Digital), GSM (2G), GPRS (2.5G), EDGE (2.75G), UMTS (3G), HSPA+ y (LTE) (4G) con un 72.23% de cobertura en el país.<br>
+<img src="imagenes/telcel.png" width="85%" height="20%"><br><br>
+<li>Movistar: operando también bajo los estándares CDMA (Digital), GSM (2G), GPRS (2.5G), EDGE (2.75G), UMTS (3G), HSDPA (3.5G), HSUPA (3.75G) y LTE (4G) con un 56.78% de cobertura en el país.<br>
+<img src="imagenes/movistar.png" width="85%" height="10%"><br><br>
+<li>AT&T México: operando bajo CDMA (Digital) y EV-DO (3G sobre CDMA), GSM (2G), GPRS (2.5G), EDGE (2.75G), UMTS (3G), HSPA+ (3.9G) y 4G LTE (en algunas ciudades solamente), utiliza también iDEN y HSDPA, con un 73.54% de cobertura en el país.<br><br>
+<img src="imagenes/at&t.png" width="75%" height="20%"><br>
+<li>Cabe destacar que tras la combinación de las redes iusacell-nextel se complementa la red que ya está unificada (AT&T).
+<img src="imagenes/ni.png" width="70%" height="30%">
+</ul>
+</h4>
+</div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4> Aplicacion Dos, DJAR</h4> 
+    </div>
+    </div>
+  <!--</div>-->
+  
+ <div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1> Teléfono del Futuro </h1>
+    </div>
+     <div data-role="content" align="center">
+      <div> 
+        <h4>Sin lugar a dudas, la tecnología avanza día a día. Lo que hoy es novedoso para mañana es algo anticuado. Es por so que los futuros celulares no tendrán límites ni dejarán de sorprendernos. Aquí te mencionamos dos posibles telefonos a futuro
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1> Proyecto ARA: </h1>
+        <div> 
+         <p>Consiste en un proyecto que Google comenzó en 2015 para crear un prototipo de celular "Lego" que se puede armar con las características que a ti te gusten o que necesites, tales como la batería, memoria interna, cámara, procesador e incluso, la pantalla.</p>
+         <br>
+        </div>
+        <div>
+           <img src="imagenes/ara.png" width="95%" height="40%">
+        </div>
+     </div>
+    </div>
+    
+<div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1> Nokia Forma Humana: </h1>
+        <div> 
+         <p>Consiste en un proyecto de la famosa empresa Nokia presentando un celular con una forma fuera de lo ordinario, pues es una forma ovalada adaptada para su uso manual con una pantalla flexible y transparente que se puede torcer y doblar el dispositivo.</p>
+         <br>
+        </div>
+        <div>
+           <img src="imagenes/nokiafh.png" width="80%" height="40%">
+        </div>
+     </div>
+    </div>
+    
+<div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1> Mozila Seabird: </h1>
+        <div> 
+         <p>Consiste en un proyecto a cargo de la  empresa Mozila que presenta un innovador celular sacado de la imaginación de sus trabajadores, pues es un dispositivo con propiedades y características avanzadas para cualquier celular actual, por ejemplo: al rotar el dispositivo puede proyectar una pantalla y un teclado de luz que se puede manipular. Apesar de que no tenga una fecha de lanzamiento, sirve para enseñar hasta donde nos llevará la tecnología.</p>
+         <br>
+        </div>
+        <div>
+           <img src="imagenes/mozilla.png" width="80%" height="40%">
+        </div>
+     </div>
+    </div>
+        </h4>
+        </div>
+      </div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4> Aplicacion Dos, DJAR</h4> 
+    </div>
+    </
+    <!--</div>-->
+  </div>
+
+ 
+ </body>
+</html>
