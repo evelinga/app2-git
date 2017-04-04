@@ -35,11 +35,11 @@
    
    
    <!-- Para accesar a paginas en internet-->
-   <allow-intent herf="https://*/*"/>
+   <allow-intent href="https://*/*"/>
    <acces origin="http://*/*"/>
-   <allow-intent herf="http://*/*"/>
+   <allow-intent href="http://*/*"/>
    <acces origin="http://*/*"/>
-   <plugin name="cordova-plugin-whitelist" sourse="npm"/>
+   <plugin name="cordova-plugin-whitelist" source="npm"/>
    
    <!--colocar icono app-->
    
